@@ -24,7 +24,7 @@ const App = () => {
           confirmButtonText: 'Sí, continuar',
           cancelButtonText: 'No, cancelar'
         })
-        return;
+        return setInpuText("");
       }
       setUser(data);
       setInpuText("");
